@@ -1,0 +1,21 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "author": "Mark Melior",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.52.0",
+    "rollup": "^4.1.4"
+  },
+  "dependencies": {
+    "on-change": "^4.0.2"
+  }
+}
